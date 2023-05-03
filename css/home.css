@@ -1,0 +1,36 @@
+header {
+  height: 10vh;
+  background-color: rgb(26, 80, 124);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.headerH2 {
+    font-family: calibri;
+}
+.headerButton{
+    outline: none;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: calibri;
+    position: absolute;
+    right: 10px;
+}
+body {
+    margin: 0px;
+}
+* {
+    margin: 0px;
+    font-family: calibri;
+}
+.no-tasks {
+    display: block;
+}
+.tasks {
+    display: none;
+}
